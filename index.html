@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOBYTE - Smart Digital Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar container">
+            <h2 class="logo-title">
+                🌿ECO<span class="logo-neon">BYTE</span>
+            </h2>
+           <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#eco-threats">Eco Threats</a>
+                <a href="#scanner">Waste Scanner</a>
+                <a href="#tracker">Carbon Tracker</a>
+                <a href="#generator">Innovation</a>
+                <a href="#missions">Missions</a>
+                <a href="#statistics">Leaderboard</a>
+            </nav>
+            <div class="nav-auth-wrapper">
+                <button class="btn-login">Login / Sign Up</button>
+                
+                <div id="user-profile-nav" class="user-profile-nav hidden">
+                    <span class="user-avatar">👤</span>
+                    <span class="user-name">Guest</span>
+                    <button id="btn-logout" class="btn-logout">Logout</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero container">
+        <div class="hero-content">
+    <h1>Smart Digital Platform <br> for a <span>Greener Future</span></h1>
+    <p>Platform interaktif untuk meningkatkan kesadaran lingkungan melalui teknologi modern, edukasi sampah, tantangan hijau, dan inovasi masa depan.</p>
+    
+    <div class="hero-buttons">
+        <a href="#scanner" class="btn-hero-primary">Mulai Jelajah 🌿</a>
+        <a href="#missions" class="btn-hero-secondary">Lihat Misi</a>
+    </div>
+</div>
+        <div class="hero-visual"> 
+    <div class="cyber-glow"></div>
+    <img src="assets/ecobyteapp.png" alt="Cyber-Eco City" class="hero-city-img">
+</div>
+    </section>
+
+    <main class="dashboard-grid container">
+        <section id="eco-threats" class="card vision-vertical-card">
+    <div class="card-lock-overlay">
+        <div class="lock-icon-box">
+            <span class="lock-icon">🔒</span>
+            <span class="lock-text">Unlock Feature</span>
+        </div>
+    </div>
+    
+    <div class="vision-header-v">
+        <h3 class="vision-title-v">⚠️ Ancaman Lingkungan Jika Tidak Dikelola</h3>
+    </div>
+    
+    <p class="card-desc">Dampak fatal jangka panjang terhadap ekosistem jika limbah harian dibiarkan menumpuk.</p>
+    
+    <div class="vision-static-container">
+        <div class="vision-row-v alert-carbon-glow">
+            <div class="vision-img-v-frame">
+                <img src="assets/polusikarbon.jpg" alt="Polusi Karbon">
+            </div>
+            <div class="vision-details-v">
+                <div class="badge-alert-v badge-critical">🚨 KRITIS: EMISI TINGGI</div>
+                <h4 class="vision-name-v">Krisis Iklim & Efek Rumah Kaca</h4>
+                <p class="vision-desc-v">Jejak emisi harianmu yang mencapai (<strong>9.60 KG CO2</strong>) berkontribusi langsung pada penumpukan gas rumah kaca di atmosfer bumi. Jika polusi ini terus dibiarkan tanpa langkah efisiensi energi, akumulasi karbon akan mempercepat pemanasan global dan merusak ozon. 📈</p>
+            </div>
+        </div>
+
+        <div class="vision-row-v">
+            <div class="vision-img-v-frame">
+                <img src="assets/metana.png" alt="Ledakan Methane">
+            </div>
+            <div class="vision-details-v">
+                <div class="badge-alert-v badge-warning">⚠️ PERINGATAN: ORGANIK</div>
+                <h4 class="vision-name-v">Ledakan Gas Metana Organik</h4>
+                <p class="vision-desc-v">Tumpukan sampah dalam kategori <strong>Sisa Makanan</strong> 🥩 yang membusuk dalam kondisi anaerob di TPA akan memproduksi emisi gas metana (CH4). Gas ini memiliki daya rusak 25 kali lipat lebih kuat dalam memerangkap panas dibanding CO2. 🔥</p>
+            </div>
+        </div>
+
+        <div class="vision-row-v">
+            <div class="vision-img-v-frame">
+                <img src="assets/anorganik.png" alt="Mikroplastik">
+            </div>
+            <div class="vision-details-v">
+                <div class="badge-alert-v badge-info">ℹ️ POLUSI ABADI</div>
+                <h4 class="vision-name-v">Ancaman Sampah Abadi & Mikroplastik</h4>
+                <p class="vision-desc-v">Limbah anorganik seperti <strong>Plastik & Kaleng</strong> 🥤 membutuhkan waktu ratusan tahun untuk terurai. Akibatnya, sampah ini menyumbat sistem drainase perkotaan pemicu banjir parah, serta terfragmentasi menjadi partikel mikroplastik beracun. 🌧️</p>
+            </div>
+        </div>
+
+        <div class="vision-row-v">
+            <div class="vision-img-v-frame">
+                <img src="assets/baterai.png" alt="Racun Chemical">
+            </div>
+            <div class="vision-details-v">
+                <div class="badge-alert-v badge-danger">🚨 BAHAYA: LIMBAH B3</div>
+                <h4 class="vision-name-v">Pencemaran Racun Kimia B3</h4>
+                <p class="vision-desc-v">Pembuangan limbah berbahaya seperti <strong>Baterai & Elektronik Bekas</strong> 🔋 melepaskan kandungan logam berat beracun. Zat kimia berbahaya ini merembes masuk ke dalam tanah, membunuh mikroorganisme, dan mencemari cadangan air tanah. 🚰</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="scanner" class="card locked">
+    <div class="card-lock-overlay">
+        <div class="lock-icon-box">
+            <span class="lock-icon">🔒</span>
+            <span class="lock-text">Unlock Feature</span>
+        </div>
+    </div>
+
+    <h3>🔍 Smart Waste Scanner</h3>
+    <p class="card-desc">Pilih jenis material sampah untuk menganalisis klasifikasi, instruksi pengolahan, dan dampak ekologisnya.</p>
+    
+    <div class="form-inline scanner-action-bar">
+        <select id="waste-select">
+            <option value="plastik">Botol Plastik (PET)</option>
+            <option value="organik">Sisa Makanan / Organik</option>
+            <option value="kaca">Botol Kaca</option>
+            <option value="elektronik">Baterai / Elektronik Bekas</option>
+            <option value="kertas">Kertas Ujian / Kardus Karton</option>
+            <option value="kaleng">Kaleng Minuman Alumunium</option>
+            <option value="styrofoam">Styrofoam / Wadah Makanan Gabus</option>
+            <option value="baju">Pakaian Bekas / Limbah Tekstil</option>
+        </select>
+        <button id="btn-scan" class="btn-primary">SCAN WASTE</button>
+    </div>
+    
+    <div id="scan-result" class="result-box hidden panel-scan-output">
+        
+        <div class="result-info-layout">
+            <div class="meta-info-block">
+                <span class="meta-info-sub">Waste Material</span>
+                <h4 id="res-waste-name">-</h4>
+            </div>
+            <div class="meta-info-divider">
+                <p><strong class="text-neon">Klasifikasi:</strong> <span id="res-cat">-</span></p>
+            </div>
+            <div>
+                <p><strong class="text-neon">Waktu Terurai:</strong> <span id="res-duration" class="text-orange-duration">-</span></p>
+            </div>
+            <div>
+                <p><strong class="text-neon">Metode Upcycling:</strong> <span id="res-method">-</span></p>
+            </div>
+            <div>
+                <p><strong class="text-red-impact">Dampak Ekologis:</strong> <span id="res-impact">-</span></p>
+            </div>
+        </div>
+        
+        <div class="result-visual-wrapper">
+            <span class="visual-badge-innovation">✨ Upcycling Innovation</span>
+            <div id="scan-image-wrapper">
+                <img id="scan-result-img" src="" alt="Upcycling Preview">
+            </div>
+            
+            <div class="visual-product-footer">
+                <div class="product-title-group">
+                    <span class="product-sub-label">Hasil Olahan</span>
+                    <strong id="res-product-name">-</strong>
+                </div>
+
+                <a id="res-video-link" href="#" target="_blank" class="btn-yt-minimal">
+                    <span>Lihat Cara Buat</span>
+                    <span class="icon-arrow-link">→</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="tracker" class="card locked">
+    <div class="card-lock-overlay">
+        <div class="lock-icon-box">
+            <span class="lock-icon">🔒</span>
+            <span class="lock-text">Unlock Feature</span>
+        </div>
+    </div>
+    <div class="card-header">
+        <h3>🚗 Carbon Footprint Tracker</h3>
+    </div>
+    <p class="card-desc">Simulasi jejak karbon harianmu (KG CO2).</p>
+    <div class="form-inline">
+        <input type="number" id="km-input" placeholder="Jarak kendaraan (KM)">
+        <button id="btn-track" class="btn-cyan">Hitung</button>
+    </div>
+    <div class="chart-sim">
+        <div class="bar-container">
+            <span class="bar-label">Kamu</span>
+            <div class="bar-bg"><div id="bar-user" class="bar-fill cyan"></div></div>
+        </div>
+        <div class="bar-container">
+            <span class="bar-label">Rata-rata global</span>
+            <div class="bar-bg"><div class="bar-fill neon bar-global-default"></div></div>
+        </div>
+    </div>
+    <div id="carbon-status" class="carbon-status-text"></div>
+</section>
+      <section id="generator" class="card locked">
+        <div class="card-lock-overlay">
+            <div class="lock-icon-box">
+                <span class="lock-icon">🔒</span>
+                <span class="lock-text">Unlock Feature</span>
+            </div>
+        </div>
+        <h3>⚡ Eco Innovation Generator</h3>
+        <p class="card-desc">Dapatkan ide inovasi teknologi ramah lingkungan secara acak.</p>
+        <button id="btn-generate" class="btn-primary full-width">GENERATE IDEA</button>
+        <div id="innovation-result" class="result-box hidden">
+            <h4 id="type-title" class="text-neon">-</h4>
+            <p id="type-desc">-</p>
+        </div>
+    </section>
+    
+    </main>
+ <section class="dashboard-extended-section container">
+    <div class="dashboard-extended-grid">
+        
+        <div id="missions" class="card locked mission-card-flex">
+            <div class="card-lock-overlay">
+                 <div class="lock-icon-box">
+                     <span class="lock-icon">🔒</span>
+                     <span class="lock-text">Unlock Feature</span>
+                 </div>
+             </div>
+             <h3>🌱 Eco Mission Challenge</h3>
+             <p class="mission-card-subtitle">Selesaikan misi harian untuk mengumpulkan XP dan naik peringkat!</p>
+             
+             <div class="mission-scroll-list">
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="10">
+                     <span class="mission-text">Membawa Botol Minum/Tumbler Sendiri</span>
+                     <span class="mission-xp-badge">+10 XP</span>
+                 </label>
+
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="15">
+                     <span class="mission-text">♻️ Memilah Sampah Plastik & Organik</span>
+                     <span class="mission-xp-badge">+15 XP</span>
+                 </label>
+
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="20">
+                     <span class="mission-text">🚲 Berjalan Kaki / Bersepeda sejauh 1 KM</span>
+                     <span class="mission-xp-badge">+20 XP</span>
+                 </label>
+
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="10">
+                     <span class="mission-text">🔌 Mematikan Stopkontak Listrik Tak Terpakai</span>
+                     <span class="mission-xp-badge">+10 XP</span>
+                 </label>
+
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="25">
+                     <span class="mission-text">🛍️ Menggunakan Totebag Saat Berbelanja</span>
+                     <span class="mission-xp-badge">+25 XP</span>
+                 </label>
+
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="15">
+                     <span class="mission-text">🌱 Menyiram Tanaman atau Menanam Benih</span>
+                     <span class="mission-xp-badge">+15 XP</span>
+                 </label>
+
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="30">
+                     <span class="mission-text">🍽️ Menghabiskan Makanan Tanpa Sisa</span>
+                     <span class="mission-xp-badge">+30 XP</span>
+                 </label>
+
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="20">
+                     <span class="mission-text">📄 Menggunakan Kertas Bekas / Sisi Dua Balik</span>
+                     <span class="mission-xp-badge">+20 XP</span>
+                 </label>
+
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="15">
+                     <span class="mission-text">🚿 Membatasi Waktu Mandi Maksimal 5 Menit</span>
+                     <span class="mission-xp-badge">+15 XP</span>
+                 </label>
+
+                 <label class="mission-item">
+                     <input type="checkbox" class="mission-check" data-points="40">
+                     <span class="mission-text">💡 Menggunakan Transportasi Umum Hari Ini</span>
+                     <span class="mission-xp-badge">+40 XP</span>
+                 </label>
+             </div>
+        </div>
+
+        <div id="statistics" class="card stats-card-stretch">
+            <div class="card-lock-overlay">
+                <div class="lock-icon-box">
+                    <span class="lock-icon">🔒</span>
+                    <span class="lock-text">Unlock Feature</span>
+                </div>
+            </div>
+            
+            <div class="stats-card-header">
+                <h3>🏆 Ecobyte Top Green Warriors & Live Stats</h3>
+            </div>
+            
+            <div class="stats-internal-layout">
+                <div class="stats-box-info">
+                    <h4 class="text-impact-title">🌍 Platform Impact Tracker</h4>
+                    
+                    <div class="stat-meta-item">
+                        <span class="stat-meta-label">Total Sampah Terdaur Ulang</span>
+                        <span class="stat-meta-value">1,248.5 <small class="unit-green">KG</small></span>
+                    </div>
+                    
+                    <div class="stat-meta-item">
+                        <span class="stat-meta-label">Total Karbon Berhasil Ditekan</span>
+                        <span class="stat-meta-value">412.3 <small class="unit-cyan">KG CO2</small></span>
+                    </div>
+                </div>
+
+                <div class="leaderboard-box">
+                    <h4 class="text-standings-title">🥇 Top User Standings</h4>
+                    <div id="leaderboard-custom-container" class="custom-chart-container chart-container-standings"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <div id="auth-modal" class="modal-overlay hidden">
+        <div class="modal-box">
+            <button id="close-modal" class="close-btn">&times;</button>
+            
+            <div id="login-form-container">
+                <h2>Selamat Datang Kembali! 🌿</h2>
+                <p class="modal-subtitle">Masuk untuk melanjutkan misi hijau kamu.</p>
+                
+                <form id="login-form">
+                    <div class="input-group">
+                        <label for="login-email">Email</label>
+                        <input type="email" id="login-email" placeholder="admin@uniku.ac.id" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="login-pass">Password</label>
+                        <input type="password" id="login-pass" placeholder="••••••••" required>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">MASUK</button>
+                </form>
+                <p class="switch-text">Belum punya akun? <a href="#" id="to-signup">Daftar sekarang</a></p>
+            </div>
+
+        <div id="signup-form-container" class="hidden">
+            <h2>Buat Akun Baru 🚀</h2>
+            <p class="modal-subtitle">Mulai langkah awalmu menuju masa depan hijau.</p>
+        
+        <form id="signup-form">
+            <div class="input-group">
+                <label for="signup-name">Nama Lengkap</label>
+                <input type="text" id="signup-name" placeholder="Nama lengkap Anda" required>
+            </div>
+            <div class="input-group">
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" placeholder="Masukkan email aktif" required>
+            </div>
+            <div class="input-group">
+                <label for="signup-pass">Password</label>
+                <input type="password" id="signup-pass" placeholder="Minimal 6 karakter" required>
+            </div>
+        <button type="submit" class="btn-cyan full-width">DAFTAR SEKARANG</button>
+    </form>
+    <p class="switch-text">Sudah punya akun? <a href="#" id="to-login">Masuk di sini</a></p>
+</div>
+        </div>
+    </div>
+<footer class="cyber-footer">
+    <div class="footer-neon-line"></div>
+    <div class="footer-container">
+        <div class="footer-column brand-col">
+            <div class="footer-logo">
+                <span class="logo-eco">ECO</span><span class="logo-byte">BYTE</span>
+            </div>
+            <p class="footer-tagline">EMPOWERING YOUTH FOR A GREENER EARTH</p>
+            <p class="footer-about">
+                Platform gamifikasi interaktif untuk meningkatkan kesadaran lingkungan dan mendorong generasi muda berkontribusi nyata menekan emisi karbon melalui tantangan hijau digital.
+            </p>
+        </div>
+
+        <div class="footer-column links-col">
+            <h4 class="footer-title">⚡ Quick Navigation</h4>
+            <ul class="footer-links">
+                <li><a href="#home"><span class="link-icon">🏠</span> Home Overview</a></li>
+                <li><a href="#scanner"><span class="link-icon">🔍</span> Waste Scanner</a></li>
+                <li><a href="#tracker"><span class="link-icon">🚗</span> Carbon Tracker</a></li>
+                <li><a href="#leaderboard"><span class="link-icon">🏆</span> Global Leaderboard</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column status-col">
+            <h4 class="footer-title">🖥️ System Status</h4>
+            <div class="status-box">
+                <div class="status-item">
+                    <span class="status-dot dot-green"></span>
+                    <p>Database: <strong>Local Session Secured</strong></p>
+                </div>
+                <div class="status-item">
+                    <span class="status-dot dot-cyan"></span>
+                    <p>Environment: <strong class="text-cyan">Web Design Competition 2026</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 <span class="highlight-white">Ecobyte Ecosystem</span>. Designed & Developed by <span class="highlight-green">Dea Puspitasari</span> &mdash; Universitas Kuningan. All Rights Reserved.</p>
+    </div>
+</footer>
+    <script src="script.js"></script>
+    <div id="toast-container" class="toast-container"></div>
+</body>
+</html>
